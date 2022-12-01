@@ -13,7 +13,7 @@ const App = () => {
       monster.name.toLocaleLowerCase().includes(searchField)
     );
     setFilteredMonsters(newFilteredMonsters);
-  }, [monsters,searchField]);
+  }, [monsters, searchField]);
 
   useEffect(() => {
     fetch("https://jsonplaceholder.typicode.com/users")

@@ -1,6 +1,6 @@
 import "./single-card.styles.css";
 
-const SingleCard = ({monster}) => {
+const SingleCard = ({ monster }) => {
   const { id, name, email } = monster;
   return (
     <div className="card-container" key={id}>
